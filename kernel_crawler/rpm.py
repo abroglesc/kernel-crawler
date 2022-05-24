@@ -8,7 +8,7 @@ import sqlite3
 import tempfile
 
 from . import repo
-from utils import get_url
+from .utils import get_url
 
 try:
     import lzma

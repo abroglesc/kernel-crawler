@@ -5,7 +5,7 @@ import click
 
 from . import repo
 from . import rpm
-from utils import get_url, make_string
+from .utils import get_url, make_string
 
 
 def get_al_repo(repo_root, repo_release, repo_arch = ''):
