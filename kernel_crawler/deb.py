@@ -12,8 +12,7 @@ import requests
 from lxml import html
 
 from . import repo
-from .utils.download import get_first_of, get_url
-from .utils.py23 import make_bytes, make_string
+from utils import get_first_of, get_url, make_bytes, make_string
 import pprint
 
 logger = logging.getLogger(__name__)
