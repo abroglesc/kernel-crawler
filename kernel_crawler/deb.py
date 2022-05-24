@@ -12,8 +12,8 @@ import requests
 from lxml import html
 
 from . import repo
-from kernel_crawler.utils.download import get_first_of, get_url
-from kernel_crawler.utils.py23 import make_bytes, make_string
+from .utils.download import get_first_of, get_url
+from .utils.py23 import make_bytes, make_string
 import pprint
 
 logger = logging.getLogger(__name__)

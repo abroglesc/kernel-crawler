@@ -8,7 +8,7 @@ import sqlite3
 import tempfile
 
 from . import repo
-from kernel_crawler.utils.download import get_url
+from .utils.download import get_url
 
 try:
     import lzma

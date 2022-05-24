@@ -5,8 +5,8 @@ import click
 
 from . import repo
 from . import rpm
-from kernel_crawler.utils.download import get_url
-from kernel_crawler.utils.py23 import make_string
+from .utils.download import get_url
+from .utils.py23 import make_string
 
 
 def get_al_repo(repo_root, repo_release, repo_arch = ''):
